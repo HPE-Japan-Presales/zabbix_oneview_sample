@@ -36,3 +36,8 @@ JSON is not good for monitoring visually. I'm not sure Zabbix can make JSON LIST
 So I converted JSON into simple text.  
 You can use this [sample script](preprocessing_format.js).  
 ![text](docs/text.png)
+
+Pls let me know if you know the way that inserts each indexies in JSON list separately into Zabbix incident entries. (I was lazy to read docs actually...)  
+
+Finally I could not be satisfied because some incidents is in ONE entry...  
+I made [another solution here](https://github.com/fideltak/oneview-event-logger).
